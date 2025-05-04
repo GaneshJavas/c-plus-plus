@@ -18,6 +18,6 @@ int main(){
 
     cout << price << endl;
 
-
+    cout << mango;
     return 0;
 }
