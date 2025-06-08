@@ -15,6 +15,9 @@ void manufactureChocolate(string choco = "Yeha tho kuch bhi nahi hai"){
     cout << choco << endl;
 }
 
+// quantity is a reference to an integer (int) that allows indirect access to the original variable it refers to. 
+// Modifying quantity will directly affect the referenced integer, and it must be initialised at the time of declaration.
+
 void chocoQuantity(int &quantity){
     quantity += 2;
     cout << "You have ordered "<< quantity << " number of chocolates."<< endl;
